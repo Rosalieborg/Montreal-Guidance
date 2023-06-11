@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100...900&family=Wix+Madefor+Display:wght@700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+header {
+    background-color: beige;
+    height:75.90vh;
+    transition-property: background-color, transform;
+    transition-duration: 2000ms;
+}
+
+header:hover {
+    background-color: rgb(223, 201, 244);
+}
+
+main > .container-fluid:nth-child(2) {
+    height: 50vh;
+}
+
+header , main {
+    padding: 0 8.33vw !important;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 124);
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: red;
+    }
+
+textarea { 
+    resize: none;
+}
+
+main > .container-fluid { 
+    height: 20vh;
+}
+
+header>div, main  .container-fluid > div, .carousel-inner, .carousel.item {
+    height: 100%;
+}
+
+.carousel-inner .carousel-item img  { 
+    height: 100%;
+    object-fit: cover;
+ }
+
+h1,h2,h4 {  
+    font-family: 'Wix Madefor Display', sans-serif ;
+}
+
+
+h1,h2,h3, h4 {
+    margin-top: 0;
+ }
+
+h1, h4{
+    font-size: 40px;
+    vertical-align: top;
+}
+
+h1,
+h3,
+h4,
+header p {
+    line-height: 125%;
+}
+
+header p {
+    font-size: 15px;
+    color: rgba(178, 78, 78, 0.523);
+}
+
+h3 {
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+
+
+header a, main a{
+    font-size: 20px;
+    width: 37.5%;
+    display: block;
+    padding: 11.5px 0;
+    border-radius:5px;
+}
+
+
+
+footer{ 
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 125px;
+    padding: 20vh;
+    margin-top:10vh;
+    position: absolute;
+    left: -4px;
+}
+
+h4 { 
+    width: 100%;
+    margin-top:90vh;
+    text-align: left;
+}
+
+main img:last-child {
+    margin-left: 90vh;
+    height: 40vh;
+    margin-top: -20vh;
+}
+
+@media (max-width: 768px) {
+
+header {
+    height: auto;
+    padding:40px
+}
+}
+
